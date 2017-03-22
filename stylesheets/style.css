@@ -1,0 +1,99 @@
+/* line 4, ../sass/style.scss */
+.navbar {
+  background-color: red;
+  margin: 0;
+}
+
+/* line 11, ../sass/style.scss */
+.nav a {
+  color: white;
+}
+/* line 14, ../sass/style.scss */
+.nav a:hover {
+  background-color: white;
+  color: red;
+}
+
+/* line 20, ../sass/style.scss */
+.navbar-toggle {
+  background-color: gainsboro;
+}
+
+/* line 24, ../sass/style.scss */
+.active {
+  background-color: white;
+}
+/* line 26, ../sass/style.scss */
+.active a {
+  color: red;
+}
+
+/* line 31, ../sass/style.scss */
+.header {
+  margin: 10px;
+  margin-top: 25px;
+  position: relative;
+}
+
+/* line 37, ../sass/style.scss */
+#brand {
+  font-size: 50px;
+  position: absolute;
+  top: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 45, ../sass/style.scss */
+#no {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 50, ../sass/style.scss */
+#info {
+  position: absolute;
+  text-align: right;
+  right: 30px;
+  top: 0px;
+  height: 350px;
+  font-size: 14px;
+}
+
+/* line 60, ../sass/style.scss */
+.pres {
+  padding: 20px;
+}
+/* line 62, ../sass/style.scss */
+.pres h1 {
+  font-size: 30px;
+  color: #bd4f4f;
+}
+/* line 66, ../sass/style.scss */
+.pres p {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* line 72, ../sass/style.scss */
+.list {
+  padding-left: 25px;
+}
+/* line 74, ../sass/style.scss */
+.list .list-head {
+  color: red;
+}
+/* line 77, ../sass/style.scss */
+.list ul {
+  padding-left: 15px;
+  list-style: disc;
+}
+
+@media (min-width: 768px) {
+  /* line 84, ../sass/style.scss */
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}

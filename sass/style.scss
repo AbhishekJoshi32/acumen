@@ -1,0 +1,89 @@
+$hover-backcolor : white;
+$nav-color : white;
+$hover-color : red;
+.navbar{
+	background-color : red;
+	margin : 0
+
+}
+
+.nav{
+	a{
+	color : $nav-color;
+	}
+	a:hover{
+		background-color : $hover-backcolor;
+		color : $hover-color;
+	}
+}
+
+.navbar-toggle{
+	background-color : gainsboro;
+}
+
+.active{
+	background-color : $hover-backcolor;
+	a{
+		color : $hover-color;
+	}
+}
+
+.header{
+	margin : 10px;
+	margin-top : 25px;
+	position : relative;
+}
+
+#brand{
+	font-size : 50px;
+	position : absolute;
+	top : 30px;
+	margin : 0;
+	padding : 0;
+}
+
+#no{
+	font-size:20px;
+	font-weight : bold;
+}
+
+#info{
+	position : absolute;
+	text-align : right;
+	right : 30px;
+	top : 0px;
+	height : 350px;
+	font-size : 14px;
+
+}
+
+.pres{
+	padding:20px;
+  	h1{
+  		font-size : 30px;
+  		color : rgb(189,79,79);
+  	}
+  	p{
+  		padding : 10px;
+  		margin-top : 10px;
+  	}
+}
+
+.list{
+	padding-left : 25px;
+	.list-head{
+		color:red;
+	}
+	ul{
+		padding-left : 15px;
+		list-style : disc;
+	}
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
