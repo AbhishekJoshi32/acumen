@@ -1,10 +1,13 @@
 $hover-backcolor : white;
 $nav-color : white;
 $hover-color : red;
+body{
+	background : url("../images/background.jpg");
+}
 .navbar{
 	background-color : red;
-	margin : 0
-
+	margin : 0;
+	
 }
 
 .nav{
@@ -42,6 +45,11 @@ $hover-color : red;
 	padding : 0;
 }
 
+.content{
+	padding-left : 0;
+}
+
+
 #no{
 	font-size:20px;
 	font-weight : bold;
@@ -57,33 +65,74 @@ $hover-color : red;
 
 }
 
+.jumbotron{
+	margin : 0;
+}
+
+.block1{
+	margin-top : 20px;
+}
+
 .pres{
+	border : 1px #b3afaf solid;
 	padding:20px;
   	h1{
-  		font-size : 30px;
+  		font-size : 36px;
   		color : rgb(189,79,79);
   	}
   	p{
   		padding : 10px;
   		margin-top : 10px;
+  		font-size : 18px;
   	}
 }
 
+
+
+
+.news{
+	border: black 3px;
+}
+
 .list{
-	padding-left : 25px;
+	padding : 20px;
+	padding-left : 50px;
+	margin-bottom : 40px;
 	.list-head{
+		text-align : left;
 		color:red;
+		font-size : 18px;
+		padding-bottom : 20px;
+
 	}
 	ul{
 		padding-left : 15px;
 		list-style : disc;
 	}
+	li{
+		padding : 10px;
+		font-size : 16px;
+	}
+}
+
+.lastpara{
+	font-size : 18px;
+	padding: 30px;
 }
 
 @media (min-width: 768px) {
   .navbar-nav.navbar-center {
     position: absolute;
+    width : 580px;
     left: 50%;
     transform: translatex(-50%);
   }
+}
+
+
+footer{
+	height : 100px;
+	margin-top : 10px;
+	background-color : #dcdcff;
+
 }

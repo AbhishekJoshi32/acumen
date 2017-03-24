@@ -1,41 +1,46 @@
 /* line 4, ../sass/style.scss */
+body {
+  background: url("../images/background.jpg");
+}
+
+/* line 7, ../sass/style.scss */
 .navbar {
   background-color: red;
   margin: 0;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 .nav a {
   color: white;
 }
-/* line 14, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .nav a:hover {
   background-color: white;
   color: red;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 .navbar-toggle {
   background-color: gainsboro;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 .active {
   background-color: white;
 }
-/* line 26, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .active a {
   color: red;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .header {
   margin: 10px;
   margin-top: 25px;
   position: relative;
 }
 
-/* line 37, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 #brand {
   font-size: 50px;
   position: absolute;
@@ -44,13 +49,18 @@
   padding: 0;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
+.content {
+  padding-left: 0;
+}
+
+/* line 53, ../sass/style.scss */
 #no {
   font-size: 20px;
   font-weight: bold;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 #info {
   position: absolute;
   text-align: right;
@@ -60,40 +70,80 @@
   font-size: 14px;
 }
 
-/* line 60, ../sass/style.scss */
-.pres {
-  padding: 20px;
-}
-/* line 62, ../sass/style.scss */
-.pres h1 {
-  font-size: 30px;
-  color: #bd4f4f;
-}
-/* line 66, ../sass/style.scss */
-.pres p {
-  padding: 10px;
-  margin-top: 10px;
+/* line 68, ../sass/style.scss */
+.jumbotron {
+  margin: 0;
 }
 
 /* line 72, ../sass/style.scss */
+.block1 {
+  margin-top: 20px;
+}
+
+/* line 76, ../sass/style.scss */
+.pres {
+  border: 1px #b3afaf solid;
+  padding: 20px;
+}
+/* line 79, ../sass/style.scss */
+.pres h1 {
+  font-size: 36px;
+  color: #bd4f4f;
+}
+/* line 83, ../sass/style.scss */
+.pres p {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* line 93, ../sass/style.scss */
+.news {
+  border: black 3px;
+}
+
+/* line 97, ../sass/style.scss */
 .list {
-  padding-left: 25px;
+  padding: 20px;
+  padding-left: 50px;
+  margin-bottom: 40px;
 }
-/* line 74, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .list .list-head {
+  text-align: left;
   color: red;
+  font-size: 18px;
+  padding-bottom: 20px;
 }
-/* line 77, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .list ul {
   padding-left: 15px;
   list-style: disc;
 }
+/* line 112, ../sass/style.scss */
+.list li {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* line 118, ../sass/style.scss */
+.lastpara {
+  font-size: 18px;
+  padding: 30px;
+}
 
 @media (min-width: 768px) {
-  /* line 84, ../sass/style.scss */
+  /* line 124, ../sass/style.scss */
   .navbar-nav.navbar-center {
     position: absolute;
+    width: 580px;
     left: 50%;
     transform: translatex(-50%);
   }
+}
+/* line 133, ../sass/style.scss */
+footer {
+  height: 100px;
+  margin-top: 10px;
+  background-color: #dcdcff;
 }
